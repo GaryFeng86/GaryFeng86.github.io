@@ -100,3 +100,14 @@
         text-align: justify;
     }
  }
+
+ @media screen and (max-height: 600px) {
+    #profile {
+        height: auto; /* Allow height to adjust based on content */
+        margin-bottom: 3rem; /* Reduce bottom margin */
+    }
+
+    .section_text {
+        margin-top: 1rem; /* Add some top margin to the text */
+    }
+}

@@ -181,7 +181,9 @@ section {
     margin-top: 1rem;
     gap: 1rem;
 }
-
+#profile .arrow {
+    margin-right: 10rem; /* 或者根据需要调整右边距的值 */
+}
 /* ICON */
 
 .icon {
